@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :projects
+  resources :clients
+  resources :makers
   resources :costs
   resources :users
   get 'site/welcome'
